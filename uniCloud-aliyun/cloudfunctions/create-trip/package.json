@@ -1,0 +1,7 @@
+{
+  "name": "create-trip",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

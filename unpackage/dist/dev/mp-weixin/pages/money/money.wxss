@@ -1,0 +1,129 @@
+
+.container.data-v-ecadea19 {
+    padding-bottom: 100rpx;
+}
+
+  /* 统计栏样式 */
+.stats-bar.data-v-ecadea19 {
+    white-space: nowrap;
+    padding: 20rpx;
+    background: #fff;
+}
+.stat-card.data-v-ecadea19 {
+    display: inline-block;
+    width: 250rpx;
+    padding: 20rpx;
+    margin-right: 20rpx;
+    background: #f5f5f5;
+    border-radius: 10rpx;
+}
+.stat-title.data-v-ecadea19 {
+    display: block;
+    color: #666;
+    font-size: 28rpx;
+}
+.stat-amount.data-v-ecadea19 {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.stat-row.data-v-ecadea19 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rpx;
+}
+.expense.data-v-ecadea19 {
+    color: #ff6b6b;
+}
+.income.data-v-ecadea19 {
+    color: #4cd964;
+}
+
+  /* 账单列表样式 */
+.bill-list.data-v-ecadea19 {
+    padding: 0 20rpx;
+}
+.bill-group.data-v-ecadea19 {
+    margin-bottom: 30rpx;
+}
+.bill-date.data-v-ecadea19 {
+    color: #999;
+    font-size: 26rpx;
+    padding: 15rpx 0;
+}
+.bill-item.data-v-ecadea19 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25rpx;
+    margin-bottom: 15rpx;
+    background: #fff;
+    border-radius: 10rpx;
+}
+.bill-left.data-v-ecadea19 {
+    flex: 1;
+}
+.bill-type.data-v-ecadea19 {
+    display: block;
+    font-size: 32rpx;
+    color: #333;
+}
+.bill-category.data-v-ecadea19 {
+    font-size: 24rpx;
+    color: #999;
+}
+.bill-amount.data-v-ecadea19 {
+    font-size: 34rpx;
+    font-weight: 500;
+}
+.bill-amount.income.data-v-ecadea19 {
+    color: #4cd964;
+}
+.bill-amount.expense.data-v-ecadea19 {
+    color: #ff6b6b;
+}
+
+  /* 记一笔按钮 */
+.add-btn.data-v-ecadea19 {
+    position: fixed;
+    bottom: 120rpx;
+    right: 30rpx;
+    display: flex;
+    align-items: center;
+    padding: 15rpx 30rpx;
+    background: #1e6eba;
+    border-radius: 50rpx;
+    box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+}
+.add-icon.data-v-ecadea19 {
+    color: #fff;
+    font-size: 40rpx;
+    margin-right: 10rpx;
+}
+.add-text.data-v-ecadea19 {
+    color: #fff;
+    font-size: 28rpx;
+}
+
+  /* 底部导航 */
+.tab-bar.data-v-ecadea19 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 100rpx;
+    background: #fff;
+    box-shadow: 0 -2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.tab-item.data-v-ecadea19 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28rpx;
+    color: #666;
+}
+.tab-item.active.data-v-ecadea19 {
+    color: #1e6eba;
+    font-weight: bold;
+}

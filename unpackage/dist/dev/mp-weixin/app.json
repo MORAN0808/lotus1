@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/travel/travel",
+    "pages/my/my",
+    "pages/money/money",
+    "pages/travel/name-trip",
+    "pages/travel/detail-trip",
+    "pages/travel/view-trip",
+    "pages/travel/travel-diary",
+    "pages/travel/travel2",
+    "pages/travel/looklook",
+    "pages/travel/looklook2",
+    "pages/travel/write11",
+    "pages/travel/write12",
+    "pages/travel/write13",
+    "pages/travel/write14",
+    "pages/travel/write15",
+    "pages/travel/write21",
+    "pages/travel/write22",
+    "pages/travel/write23",
+    "pages/travel/write24",
+    "pages/travel/write25",
+    "pages/travel/write211",
+    "pages/travel/write212",
+    "pages/travel/write213",
+    "pages/travel/write214",
+    "pages/travel/write221",
+    "pages/travel/write222",
+    "pages/travel/write223",
+    "pages/travel/write224",
+    "pages/travel/write225",
+    "pages/travel/write231",
+    "pages/travel/write232",
+    "pages/travel/write233",
+    "pages/travel/write241",
+    "pages/travel/write242",
+    "pages/travel/write243",
+    "pages/travel/write251",
+    "pages/money/mymoney",
+    "pages/money/money1",
+    "pages/money/mymoney1",
+    "pages/money/money2"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Lotus旅记",
+    "navigationBarBackgroundColor": "#1e6eba",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#4cd964",
+    "list": [
+      {
+        "pagePath": "pages/travel/travel",
+        "text": "旅行",
+        "iconPath": "/static/旅行.png",
+        "selectedIconPath": "/static/旅行.png"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "text": "记账",
+        "iconPath": "/static/记账.png",
+        "selectedIconPath": "/static/记账.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/我的.png",
+        "selectedIconPath": "/static/我的.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

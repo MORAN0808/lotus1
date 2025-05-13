@@ -1,0 +1,1 @@
+{"version":3,"file":"write13.js","sources":["D:/mycode/HBuilderX/HBuilderX.4.55.2025030718/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvdHJhdmVsL3dyaXRlMTMudnVl"],"sourcesContent":["import MiniProgramPage from 'C:/Users/莫染/Desktop/Lotus111/Lotus/pages/travel/write13.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

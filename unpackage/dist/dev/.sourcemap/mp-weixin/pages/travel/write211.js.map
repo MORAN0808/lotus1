@@ -1,0 +1,1 @@
+{"version":3,"file":"write211.js","sources":["D:/mycode/HBuilderX/HBuilderX.4.55.2025030718/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvdHJhdmVsL3dyaXRlMjExLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'C:/Users/莫染/Desktop/Lotus111/Lotus/pages/travel/write211.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

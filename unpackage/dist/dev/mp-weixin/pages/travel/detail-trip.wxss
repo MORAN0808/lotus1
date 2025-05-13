@@ -1,0 +1,213 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 保持原有样式不变 */
+.container {
+  padding: 40rpx;
+  min-height: 100vh;
+  background: #c9ecfa;
+}
+
+/* 行程标题区域 */
+.trip-header {
+  margin-bottom: 40rpx;
+}
+.trip-title {
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #333;
+}
+.trip-dates {
+  font-size: 28rpx;
+  color: #304c66;
+  margin-top: 10rpx;
+}
+
+/* 日期选择选项卡 */
+.date-tabs {
+  display: flex;
+  justify-content: space-between;
+  background: #fff9f6;
+  border-radius: 16rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.date-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.date-display {
+  font-size: 28rpx;
+  color: #1e6eba;
+  margin-top: 10rpx;
+}
+
+/* 天数选项卡 */
+.days-tabs {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20rpx;
+  padding: 20rpx 0;
+  background: white;
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.day-tab {
+  padding: 16rpx 32rpx;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  color: #4d5866;
+  position: relative;
+  white-space: nowrap;
+  border-radius: 8rpx;
+  transition: all 0.3s;
+}
+.day-tab.active {
+  color: #1e6eba;
+  font-weight: bold;
+  background: #f7fffa;
+}
+.day-tab.active .indicator {
+  width: 80rpx;
+}
+.indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 4rpx;
+  background: #1e6eba;
+  border-radius: 2rpx;
+  transition: all 0.3s;
+}
+.day-tab.active .indicator {
+  width: 80rpx;
+}
+
+/* 当前天数内容 */
+.day-content {
+  background: #f7fffa;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.day-title {
+  font-size: 32rpx;
+  font-weight: 800;
+  color: #333;
+}
+.add-attraction-btn {
+  font-size: 24rpx;
+  color: #1e6eba;
+  background: none;
+  border: none;
+}
+.attraction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #000000;
+}
+.attraction-inputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.attraction-name-input {
+  font-size: 30rpx;
+  margin-bottom: 15rpx;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #4a62ee;
+}
+.time-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.time-tab {
+  flex: 1;
+  padding: 10rpx;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  background: #b1cafa;
+  border-radius: 8rpx;
+  text-align: center;
+}
+.remove-attraction-btn {
+  font-size: 24rpx;
+  color: #ff5a5f;
+  background: none;
+  border: none;
+  margin-left: 20rpx;
+}
+
+/* 天数操作区域 */
+.days-operations {
+  margin: 30rpx 0;
+}
+.add-day-btn {
+  width: 100%;
+  padding: 10rpx;
+  background: #f0f7ff;
+  color: #1e6eba;
+  border: 1rpx solid #1e6eba;
+  border-radius: 12rpx;
+  font-size: 28rpx;
+}
+
+/* 保存按钮 */
+.save-btn {
+  width: 100%;
+  padding: 10rpx;
+  background: #1e6eba;
+  color: white;
+  border: none;
+  border-radius: 12rpx;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+  box-shadow: 0 4rpx 16rpx rgba(30, 110, 186, 0.2);
+}
+
+/* 空天数提示 */
+.empty-day {
+  padding: 40rpx;
+  text-align: center;
+  color: #999;
+  font-size: 28rpx;
+}
